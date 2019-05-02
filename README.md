@@ -4,10 +4,10 @@ Ce projet utilise un fichier CSV de données: population homme et population fem
 
 Ensuite, le fichier est chargé en mémoire, quelques petites stats sont calculées (population totale, pourcentage femme / homme), les top X pays en terme de population et de pourcentage sont montrés, et les données sont sauvées dans un nouveau fichier parquet.
 
-# Dependences
+# Dépendences
 Ce projet utilise la librairie disponible à https://github.com/xitongsys/parquet-go pour lire et écrire des fichiers parquet.
 
-# Execution
+# Exécution
 Soit en mode complet:
 ```sh
 go build
