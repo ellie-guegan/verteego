@@ -1,11 +1,11 @@
 # Projet Verteego
-Ce projet utilise un fichier CSV de donnees: population homme, femme, par pays.
-A partir du fichier CSV, un fichier parquet est cree pour cet exercice.
+Ce projet utilise un fichier CSV de données: population homme et population femme, par pays.
+À partir du fichier CSV, un fichier parquet est crée pour cet exercice.
 
-Ensuite, le fichier est charge en memoire, quelques petites stats sont calculees (population totale, pourcentage femme / homme), les top X pays en terme de population et de pourcentage sont montres, et les donnees sont sauves dans un nouveau fichier parquet.
+Ensuite, le fichier est chargé en mémoire, quelques petites stats sont calculées (population totale, pourcentage femme / homme), les top X pays en terme de population et de pourcentage sont montrés, et les données sont sauvées dans un nouveau fichier parquet.
 
 # Dependences
-Ce projet utilise la librairie disponible a https://github.com/xitongsys/parquet-go pour lire et ecrire des fichiers parquet.
+Ce projet utilise la librairie disponible à https://github.com/xitongsys/parquet-go pour lire et écrire des fichiers parquet.
 
 # Execution
 Soit en mode complet:
