@@ -9,9 +9,13 @@ Ce projet utilise la librairie disponible à https://github.com/xitongsys/parque
 
 # Execution
 Soit en mode complet:
-```go build
-```go install
-```$GOPATH/bin/verteego
+```sh
+go build
+go install
+$GOPATH/bin/verteego
+```
 
 Soit en mode instantane:
-```go run *.go
+```
+go run *.go
+```
