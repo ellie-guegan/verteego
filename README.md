@@ -1,7 +1,3 @@
-# verteego
-# installer dependence https://github.com/xitongsys/parquet-go pour l'integration go-parquet
-go get github.com/xitongsys/parquet-go/
-
 # Projet Verteego
 Ce projet utilise un fichier CSV de donnees: population homme, femme, par pays.
 A partir du fichier CSV, un fichier parquet est cree pour cet exercice.
