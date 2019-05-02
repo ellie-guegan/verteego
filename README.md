@@ -15,7 +15,7 @@ go install
 $GOPATH/bin/verteego
 ```
 
-Soit en mode instantane:
+Soit en mode instantané:
 ```
 go run *.go
 ```
